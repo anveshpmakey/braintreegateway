@@ -37,7 +37,7 @@ public class PaymentGatewayController {
 
     @RequestMapping(value="/getAppStatus")
     public String getApplicatoinStatus() {
-        return "Braintree Payment Gateway Application started";
+        return "Braintree Payment Gateway Service Application started";
     }
 
     @RequestMapping("/getBraintreeToken")
